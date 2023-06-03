@@ -4,6 +4,13 @@
         {
             "path": "."
         }
+<<<<<<< HEAD
     ]
 
+=======
+    ],
+    "settings": {
+        "liveServer.settings.port": 5501
+    }
+>>>>>>> home_work_4
 }

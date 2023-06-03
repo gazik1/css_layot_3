@@ -1,0 +1,39 @@
+
+
+body,html{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+         @supports (background: linear-gradient(to bottom, #000000, #ffffff)) {
+            main {
+        background: linear-gradient(to bottom, #000000, #ffffff);
+    }
+    }
+
+
+      @supports not (background: linear-gradient(to bottom, #000000, #ffffff)) {
+        main {
+        background: #000000;
+    }
+    }
+   
+main {
+
+width: 100%;
+height: 100%;
+  }
+
+  @supports ( text-shadow: red 2px 2px){
+    span{
+    text-shadow: red 2px 2px;
+    color: aqua;
+}
+}
+
+
+@supports not (text-shadow: red 2px 2px){
+    span{
+        text-shadow: none;
+    }
+}
