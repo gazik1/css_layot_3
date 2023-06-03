@@ -1,15 +1,9 @@
 {
-<<<<<<< HEAD
+
     "folders": [
         {
             "path": "."
         }
     ]
-=======
-	"folders": [
-		{
-			"path": "."
-		}
-	]
->>>>>>> home_work_1
+
 }
