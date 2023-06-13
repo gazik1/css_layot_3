@@ -1,0 +1,9 @@
+div{
+    margin-top: 20px;
+}
+img[blur]{
+    filter: blur(5px) ;
+}
+img[invert]{
+    filter:invert(1);
+}
